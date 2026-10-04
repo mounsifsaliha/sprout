@@ -1,8 +1,8 @@
 {
   "lifetime": {
     "percentOff": 50,
-    "startsAt": "2026-10-07T08:00:00Z",
-    "endsAt": "2026-10-13T23:59:59Z",
+    "startsAt": "2026-10-04T08:00:00Z",
+    "endsAt": "2026-10-07T23:59:59Z",
     "regularPrices": { "USD": 49.99, "EUR": 49.99 }
   }
 }
