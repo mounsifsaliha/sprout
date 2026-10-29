@@ -25,10 +25,10 @@
 <main>
   <p><a href="./">&larr; Sprout home</a></p>
   <h1>Privacy Policy</h1>
-  <p class="sub">Sprout: Daily Habit Tracker &middot; by NovaBit Games &middot; Effective October 23, 2026</p>
+  <p class="sub">Sprout: Daily Habit Tracker &middot; by NovaBit Games &middot; Effective October 29, 2026</p>
 
   <div class="box">
-    <strong>In short:</strong> Sprout keeps your habits on your device. No accounts, no ads and no analytics. If you turn on Google Drive backup, your data goes to a hidden folder in your own Google Drive, and only you can access it. If you use the AI planner (Sprout Pro), what you type is sent to our planning server and to Anthropic to make your plan, and is not stored or used for training.
+    <strong>In short:</strong> Sprout keeps your habits on your device. No accounts, no ads and no analytics. If you turn on Google Drive backup, your data goes to a hidden folder in your own Google Drive, and only you can access it. If you use the AI planner (Sprout Pro), what you type is sent to our planning server and to Anthropic to make your plan, and is not stored or used for training. To show how many people are on each challenge, the app anonymously tells our server which challenges you have running.
   </div>
 
   <h2>1. Who we are</h2>
@@ -50,30 +50,35 @@
   <h2>4. AI planner (Sprout Pro, optional)</h2>
   <p>The AI tab turns what you type into suggested tasks, habits and challenges. It only runs when you tap to plan, and only after you agree to it in the app. When you use it:</p>
   <ul>
-    <li><strong>What is sent:</strong> the text you typed; your language, today&rsquo;s date and the current time; and, if &ldquo;Plan around my days&rdquo; is on (you can turn it off in the AI tab&rsquo;s settings), the titles and times of your unfinished tasks from the past week and the next two weeks, the names, times and days of your habits, your wake-up and bed times, and your answers to the starting quiz (goals, what you&rsquo;re cutting down on, time a day, biggest obstacle), so the planner fits your days, doesn&rsquo;t double-book you, doesn&rsquo;t repeat what you have, and can move tasks when you ask it to. Nothing else from your data is sent: no check-ins, notes, moods, name or photo.</li>
+    <li><strong>What is sent:</strong> the text you typed; your language, today&rsquo;s date and the current time; and, if &ldquo;Plan around my days&rdquo; is on (you can turn it off in the AI tab&rsquo;s settings), the titles and times of your unfinished tasks from the past week and the next two weeks, the names, times and days of your habits, your wake-up and bed times, your answers to the starting quiz (goals, what you&rsquo;re cutting down on, time a day, biggest obstacle), and anything you fill in under &ldquo;About you&rdquo; (work or school days and hours, when you focus best, when you like to exercise, how full you like your days), so the planner fits your days, doesn&rsquo;t double-book you, doesn&rsquo;t repeat what you have, and can move tasks when you ask it to. Nothing else from your data is sent: no check-ins, notes, moods, name or photo.</li>
     <li><strong>Where it goes:</strong> over an encrypted connection to our planning server (hosted by Railway), which passes it to Anthropic&rsquo;s Claude API to write the plan and sends the suggestions back to your device. Nothing is added to your app until you tap Add.</li>
     <li><strong>What is kept:</strong> our server does not store or log what you send or receive, unless you report a plan (see below). It keeps only a running total of the month&rsquo;s AI cost, and in memory a count of today&rsquo;s requests per install, tied to a random ID the app creates for this purpose, to enforce the daily limit. Anthropic does not use this data to train its models and keeps it only for a limited time under its <a href="https://www.anthropic.com/legal/commercial-terms">commercial terms</a> and <a href="https://www.anthropic.com/legal/privacy">privacy policy</a>.</li>
+    <li><strong>Suggested steps:</strong> when you tap &ldquo;Suggest&rdquo; next to a task&rsquo;s steps, that task&rsquo;s title, note, length and existing steps are sent the same way to get a few steps back. Nothing else is sent, and nothing is kept.</li>
+    <li><strong>Weekly review:</strong> when you tap &ldquo;Review my week&rdquo; on Stats, Sprout sends a summary of your habit numbers (each habit&rsquo;s name, schedule, reminder times, target, how many days it was done this week and last, by weekday over the last four weeks, and its streaks) the same way, to get a short review and a few suggested changes back. The review is kept on your phone; nothing is kept on our side.</li>
     <li><strong>Speaking instead of typing:</strong> if you tap the microphone, Sprout asks for microphone access and uses your phone&rsquo;s own speech recognition to turn your words into text in the box. Where your phone supports it, this runs entirely on the device; otherwise your phone&rsquo;s speech service (usually Google&rsquo;s) handles it under its own terms. Sprout never receives or keeps the audio; only the text you choose to send is used, as described above.</li>
     <li><strong>Feedback and reports:</strong> under each plan you can tap 👍 or 👎. A 👍 is only counted. A 👎 lets you report the plan (for example as harmful or wrong): the report, with what you asked and the plan you got, is sent to our server and kept for up to 90 days so we can review it and improve the planner. It is not linked to you or your account; only the random ID above limits how many reports one install can send a day.</li>
     <li><strong>Checking access:</strong> to make sure requests come from the genuine app and a Pro member, the app sends a Google Play Integrity token and its Google Play purchase token, which our server checks with Google. These identify the purchase, not you.</li>
   </ul>
   <p>AI suggestions can be wrong. Check them before relying on them, and don&rsquo;t use the planner for medical, legal or financial decisions.</p>
-  <h2>5. Android backup and transfer</h2>
+  <h2>5. Challenge counts</h2>
+  <p>Challenges show how many people are doing them (for example &ldquo;1,240 doing it now&rdquo;). To count them, the app sends our server, once a day and whenever it changes, the names of the library challenges you have running and the ones you just completed, with a random ID the app creates for this purpose. Nothing else is sent: no name, no progress, no habits. Our server keeps only a scrambled (hashed) form of that ID with the day it was last seen on each challenge, drops it after 7 days without news, and keeps per-challenge totals. The app reads back only the totals, which are the same for everyone. When the app is offline nothing is sent, and the counts are hidden until enough people are on a challenge.</p>
+
+  <h2>6. Android backup and transfer</h2>
   <p>Android may include Sprout&rsquo;s data in the device backup tied to your Google account, and may copy it when you transfer to a new phone. This is controlled by your device&rsquo;s backup settings, not by us.</p>
 
-  <h2>6. Export and import</h2>
+  <h2>7. Export and import</h2>
   <p>You can export your data as a CSV or JSON file at any time. Exported files are yours and go wherever you choose to share or save them. Importing a file only reads it on your device.</p>
 
-  <h2>7. Purchases</h2>
+  <h2>8. Purchases</h2>
   <p>Sprout Pro is sold through Google Play Billing. Google processes the payment and tells the app only whether a purchase is active. We never receive your name, card details or billing address.</p>
 
-  <h2>8. Notifications</h2>
+  <h2>9. Notifications</h2>
   <p>Reminders are scheduled and shown locally on your device. No notification service outside the device is involved. If you start a free trial of Sprout Pro, the app schedules one local reminder two days before the trial ends.</p>
 
-  <h2>9. Google Play services</h2>
+  <h2>10. Google Play services</h2>
   <p>The app uses Google Play&rsquo;s in-app review and in-app update features. Google may process device information under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-  <h2>10. What we do not do</h2>
+  <h2>11. What we do not do</h2>
   <ul>
     <li>No advertising networks.</li>
     <li>No analytics or crash-reporting SDKs that send data to third parties.</li>
@@ -81,13 +86,13 @@
     <li>No access to contacts, location, photos (other than the avatar you pick) or other apps. The microphone is used only while you dictate in the AI tab.</li>
   </ul>
 
-  <h2>11. Children</h2>
+  <h2>12. Children</h2>
   <p>Sprout is not directed at children under 13 and we do not knowingly collect personal information from them. We keep no personal information on our side, so there is nothing for us to hold.</p>
 
-  <h2>12. Deleting your data</h2>
-  <p>Clear the app&rsquo;s storage or uninstall Sprout to remove everything on the device. Remove the Drive backup as described in section 3. The AI planner keeps nothing to delete (section 4). Device backups follow your Android backup settings.</p>
+  <h2>13. Deleting your data</h2>
+  <p>Clear the app&rsquo;s storage or uninstall Sprout to remove everything on the device. Remove the Drive backup as described in section 3. The AI planner keeps nothing to delete (section 4). Challenge counts forget an install 7 days after it stops sending (section 5). Device backups follow your Android backup settings.</p>
 
-  <h2>13. Changes</h2>
+  <h2>14. Changes</h2>
   <p>If this policy changes, the new version is posted at this address with an updated effective date.</p>
 
   <footer>&copy; 2026 NovaBit Games &middot; <a href="mailto:mounsifsaliha6@gmail.com">mounsifsaliha6@gmail.com</a></footer>
